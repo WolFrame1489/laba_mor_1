@@ -10,10 +10,10 @@ void _INIT ProgramInit(void)
 {
 	t = 0;
 	fb_reg.k_i = 0.16;
-	fb_reg.k_p = 9.4;
+	fb_reg.k_p = 0.0064;
 	fb_motor.dt = 0.002;
-	fb_motor.Tm = 0.01;
-	fb_motor.ke = 0.2;
+	fb_motor.Tm = 0.04;
+	fb_motor.ke = 0.002;
 	fb_reg.dt = 0.002;
 	fb_reg.e = 0;
 	fb_reg.max_abs_value = 300;
